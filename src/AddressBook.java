@@ -21,6 +21,10 @@ public class AddressBook {
         return null;
     }
 
+    public void testMethod() {
+
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "619");
         AddressBook addressBook = new AddressBook();
@@ -28,4 +32,3 @@ public class AddressBook {
         addressBook.removeBuddy(0);
     }
 }
-//test
